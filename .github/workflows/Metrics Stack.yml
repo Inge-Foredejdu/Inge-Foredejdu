@@ -1,0 +1,25 @@
+name: Metrics Stack
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  base:
+    uses: ./.github/workflows/metrics.base.yml
+
+  languages:
+    uses: ./.github/workflows/metrics.languages.yml
+
+  activity:
+    uses: ./.github/workflows/metrics.activity.yml
+
+  community:
+    uses: ./.github/workflows/metrics.community.yml
+
+  advanced:
+    uses: ./.github/workflows/metrics.advanced.yml
+
+  external:
+    uses: ./.github/workflows/metrics.external.yml
