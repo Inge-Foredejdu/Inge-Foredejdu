@@ -1,19 +1,51 @@
-## 📊 GitHub Metrics
+<h1 align="center">YOUR NAME</h1>
 
-### Core
-![Base](./metrics.base.svg)
+<p align="center">
+  <img src="./metrics.base.svg" width="85%">
+</p>
 
-### Languages
-![Languages](./metrics.languages.svg)
+---
 
-### Activity
-![Activity](./metrics.activity.svg)
+## 📊 Metrics Dashboard
 
-### Community
-![Community](./metrics.community.svg)
+<table>
+<tr>
+<td width="50%">
+<img src="./metrics.languages.svg" width="100%">
+</td>
+<td width="50%">
+<img src="./metrics.activity.svg" width="100%">
+</td>
+</tr>
+<tr>
+<td width="50%">
+<img src="./metrics.community.svg" width="100%">
+</td>
+<td width="50%">
+<img src="./metrics.advanced.svg" width="100%">
+</td>
+</tr>
+</table>
 
-### Highlights
-![Advanced](./metrics.advanced.svg)
+---
 
-### External Signals
-![External](./metrics.external.svg)
+## 🧠 Deep Analytics
+
+<p align="center">
+  <img src="./metrics.external.svg" width="90%">
+</p>
+
+---
+
+<details>
+<summary>📦 Full Metrics Stack</summary>
+
+<br>
+
+<img src="./metrics.languages.svg" width="100%">
+<img src="./metrics.activity.svg" width="100%">
+<img src="./metrics.community.svg" width="100%">
+<img src="./metrics.advanced.svg" width="100%">
+<img src="./metrics.external.svg" width="100%">
+
+</details>
